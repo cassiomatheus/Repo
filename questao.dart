@@ -10,7 +10,7 @@ class Quest extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      margin: EdgeInsetsDirectional.all(10) ,
+      margin: EdgeInsets.all(10) ,
       child: Text(
         texto,
         style:TextStyle(fontSize:21 ),
